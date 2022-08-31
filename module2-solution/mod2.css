@@ -1,0 +1,118 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+
+
+h1
+{
+	font-family: sans-serif;
+	font-style: bold;
+	font-size: 50px;
+	font-color: #AA00FF;
+	align-items: center;
+	background-color: transparent;
+	text-align: center;
+	
+}
+
+.row{
+	width: 100%
+}
+
+
+
+.BIG-BOX-DESKTOP{
+	position: relative;
+	border: 1px solid red;
+	margin: 5px;
+	width: 32.5%;
+	height: 130px;
+	background-color: red;
+	float: left;
+	}
+
+
+
+
+
+
+@media (max-width: 991px) and (min-width:768px) {
+			h1{
+				font-style: italic;
+		}
+
+	.BIG-BOX-DESKTOP{
+		width: 48%;
+		background-color: blue;
+	}
+}
+
+
+@media (max-width:767px) {
+			h1{
+				font-style: italic;
+		}
+
+	.BIG-BOX-DESKTOP{
+		width: 100%;
+		background-color: black;
+	}
+}
+
+
+media (min-width:992px) {
+			h1{
+				font-style: italic;
+		}
+
+	.BIG-BOX-DESKTOP{
+		width: 30%;
+		background-color: black;
+	}
+}
+
+
+h3
+{ 
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	margin-top: auto;
+	border: 1px solid blue;
+	text-align: center;
+	width: 25%;
+	height: 25%;
+	border-width: 12.0%
+	padding-top: 50px;
+	}
+
+
+
+p{
+	margin-top: 8%;
+	font-weight: 100;
+	color: white;
+	font-family: sans-serif;
+	/*  border: 1px solid yellow; */
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+
+
+
+#c{
+	background-color: #ffa500;
+}
+
+#b{
+	background-color: #ff0000;
+}
+
+#f{
+	background-color: #ffff00;
+}
